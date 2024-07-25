@@ -1,0 +1,14 @@
+http:
+  listner:
+    host: "0.0.0.0"
+    port: "9082"
+    path: "/FastGoCall/{serviceType}"
+
+db:
+  oracle:
+    host: "localhost"
+    port: "1521"
+    username: "dummy"
+    password: "dummy"
+    instance: ""
+    service: "ORCLCDB.localdomain"    
